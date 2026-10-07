@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote | Kingdom Insurance Services, LLC</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            background-color: white;
+            color: #002366;
+        }
+        header {
+            background-color: #002366;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            height: 80px;
+            margin-right: 20px;
+        }
+        nav a {
+            color: gold;
+            margin-right: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .quote-section {
+            padding: 40px 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+        .quote-section h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .quote-section p {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #002366;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border: 2px solid #002366;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #002366;
+            color: gold;
+            padding: 12px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            background-color:#002366;
+            color:white;
+            text-align:center;
+            padding:20px;
+            font-size:16px;
+            line-height:1.5;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Final LOGO for Kingdom Insurance Services, LLC.png" alt="Kingdom Insurance Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About the Owner</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="quote.html">Request a Quote</a>
+    </nav>
+</header>
+
+<div class="quote-section">
+    <h1>Request a Quote</h1>
+    <p>Please complete the form below and we will contact you with your personalized quote.</p>
+
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Your full name">
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" placeholder="Your phone number">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Your email address">
+
+        <label for="service">Type of Insurance Needed</label>
+        <select id="service">
+            <option value="">Select one</option>
+            <option>Medicare</option>
+            <option>Health Insurance</option>
+            <option>Life Insurance</option>
+            <option>Travel Insurance</option>
+            <option>Property & Casualty (Coming Soon)</option>
+        </select>
+
+        <label for="notes">Additional Notes (Optional)</label>
+        <textarea id="notes" rows="4" placeholder="Anything you'd like us to know"></textarea>
+
+        <button type="button">Submit Quote Request</button>
+    </form>
+</div>
+
+<footer>
+    <p><strong>We do not offer every plan available in your area.</strong><br>
+    Any information we provide is limited to the plans we do offer in your area.<br>
+    Please contact Medicare.gov, 1‑800‑MEDICARE, or your local State Health Insurance Program (SHIP) to get information on all of your options.</p>
+
+    <p style="margin-top:15px;">Kingdom Insurance Services, LLC © 2026</p>
+</footer>
+
+</body>
+</html>
