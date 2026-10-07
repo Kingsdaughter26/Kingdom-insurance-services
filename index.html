@@ -2,170 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kingdom Insurance Services</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdom Insurance Services, LLC</title>
     <style>
         body {
+            font-family: Georgia, serif;
             margin: 0;
-            font-family: 'Georgia', serif;
-            background-color: #f7f7f7;
-            color: #1a1a1a;
+            background-color: white;
+            color: #002366; /* Royal blue */
         }
-
-        /* Header */
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80');
-            background-size: cover;
-            background-position: center;
-            padding: 120px 20px;
-            text-align: center;
+        header {
+            background-color: #002366;
             color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
         }
-
-        .hero h1 {
-            font-size: 48px;
-            margin: 0;
-            letter-spacing: 2px;
-            text-transform: uppercase;
+        header img {
+            height: 80px;
+            margin-right: 20px;
         }
-
-        .hero p {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-
-        /* Navigation */
-        nav {
-            background-color: #0a1a3a;
-            padding: 15px;
-            text-align: center;
-        }
-
         nav a {
             color: gold;
-            margin: 0 15px;
-            text-decoration: none;
+            margin-right: 20px;
             font-size: 18px;
+            text-decoration: none;
             font-weight: bold;
         }
-
-        /* Section */
-        .section {
+        .hero {
+            text-align: center;
             padding: 60px 20px;
-            max-width: 900px;
-            margin: auto;
         }
-
-        .section h2 {
-            font-size: 32px;
-            color: #0a1a3a;
-            text-align: center;
-            margin-bottom: 20px;
+        .hero h1 {
+            font-size: 42px;
+            color: #002366;
         }
-
-        .section p {
-            font-size: 18px;
-            line-height: 1.6;
-            text-align: center;
-        }
-
-        /* Services */
         .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 25px;
-            margin-top: 40px;
-        }
-
-        .service-card {
-            background: white;
-            border: 2px solid gold;
-            padding: 25px;
-            width: 260px;
             text-align: center;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 40px 20px;
         }
-
-        .service-card h3 {
-            color: #0a1a3a;
-            margin-bottom: 10px;
+        .services h2 {
+            font-size: 32px;
+            color: #002366;
         }
-
-        /* Footer */
+        .services p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
         footer {
-            background-color: #0a1a3a;
-            color: gold;
+            background-color: #002366;
+            color: white;
             text-align: center;
-            padding: 30px;
+            padding: 15px;
             margin-top: 40px;
         }
     </style>
 </head>
-
 <body>
 
-    <!-- HERO -->
-    <div class="hero">
-        <h1>Kingdom Insurance Services</h1>
-        <p>Protecting Your Legacy With Excellence</p>
-    </div>
-
-    <!-- NAVIGATION -->
+<header>
+    <img src="Final LOGO for Kingdom Insurance Services, LLC.png" alt="Kingdom Insurance Logo">
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Medicare</a>
-        <a href="#">Life Insurance</a>
-        <a href="#">Travel Insurance</a>
-        <a href="#">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About the Owner</a>
     </nav>
+</header>
 
-    <!-- ABOUT -->
-    <div class="section">
-        <h2>Welcome to Kingdom Insurance Services</h2>
-        <p>
-            A luxury‑refined, faith‑forward insurance agency committed to protecting families, seniors, and travelers 
-            with excellence, integrity, and royal‑level service.  
-        </p>
-    </div>
+<div class="hero">
+    <h1>Welcome to Kingdom Insurance Services, LLC</h1>
+    <p>Your trusted partner in Medicare, Health, Life, and Travel Insurance.</p>
+</div>
 
-    <!-- SERVICES -->
-    <div class="section">
-        <h2>Our Services</h2>
+<div class="services">
+    <h2>Our Services</h2>
+    <p>Medicare Plans</p>
+    <p>Health Insurance (Under 65 & Over 65)</p>
+    <p>Life Insurance</p>
+    <p>Travel Insurance</p>
+    <p style="color: gold; font-weight: bold; margin-top: 20px;">
+        Property & Casualty — Coming Soon
+    </p>
+</div>
 
-        <div class="services">
-            <div class="service-card">
-                <h3>Medicare Plans</h3>
-                <p>Guidance, enrollment, and support for Medicare Advantage, Supplement, and Part D.</p>
-            </div>
-
-            <div class="service-card">
-                <h3>Life Insurance</h3>
-                <p>Protect your legacy with term, whole life, and final expense coverage.</p>
-            </div>
-
-            <div class="service-card">
-                <h3>Travel Insurance</h3>
-                <p>Coverage for international trips, emergencies, and unexpected events.</p>
-            </div>
-
-            <div class="service-card">
-                <h3>Retirement Planning</h3>
-                <p>Secure your future with annuities and long‑term financial protection.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-        Kingdom Insurance Services, LLC<br>
-        Licensed Insurance Producer — Arkansas<br>
-        © 2026 All Rights Reserved
-    </footer>
+<footer>
+    Kingdom Insurance Services, LLC © 2026
+</footer>
 
 </body>
 </html>
-
